@@ -674,11 +674,10 @@ div.b1-container6 {
 
 div.b1-sec6-box2 {
     max-width: 700px;
-    padding: 0px 50px 0px 0px;
+    padding: 0px 45px 0px 45px;
 }
 
 div.b1-sec6-box1 {
-    margin-top: auto;
     margin-bottom: auto;
     padding: 0px 115px 0px 40px;
 }
@@ -688,7 +687,7 @@ figure.b1-sec6-left-figure {
 }
 
 figure.b1-sec6-right-figure {
-    max-width: 85%;
+    max-width: 100%;
     padding-top: 15px;
 }
 
@@ -758,7 +757,16 @@ div.b1-sec6-content {
     padding-top: 0px
 }
 
-p.b1-sec6-p {
+p.b1-sec6-left-p {
+    max-width: 700px;
+    text-align: left;
+    font-size: 16px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+p.b1-sec6-right-p {
     max-width: 700px;
     text-align: left;
     font-size: 16px;
@@ -887,7 +895,12 @@ span#carousel-right-arrow {
         margin: 10px 130px 15px 130px;
     }
 
-    p.b1-sec6-p {
+    p.b1-sec6-left-p {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    p.b1-sec6-right-p {
         font-size: 15px;
         margin-bottom: 30px;
     }
@@ -925,7 +938,329 @@ span#carousel-right-arrow {
         padding: 0px 0px 0px 0px;
     }
 
-    p.b1-sec6-p {
+    p.b1-sec6-left-p {
         font-size: 15.5px;
+    }
+
+    p.b1-sec6-right-p {
+        font-size: 15.5px;
+    }
+}
+
+/* SECTION 7 */
+div.b1-container7 {
+    display: flex;
+    justify-content: center;
+    background: #e2f2fb;
+    margin-bottom: 10px;
+}
+
+div.b1-sec7-box1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 50px 50px 60px 120px;
+
+}
+
+h1.b1-sec7-h1 {
+    font-size: 62px;
+    color: #1a272d;
+    margin: 0px 30px 0px 0px;
+}
+
+figure.xseries-ROS_img2 {
+    margin: 0px 30px 0px 0px;
+}
+
+div.b1-sec7-line {
+    height: 2px;
+    background: #1a272d;
+    margin: 10px 425px 15px 0px;
+}
+
+p.b1-sec7-p {
+    max-width: 670px;
+    text-align: justify;
+}
+
+div.b1-sec7-box2 {
+    padding: 60px 120px 60px 50px;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1250px) {
+    div.b1-container7 {
+        flex-flow: wrap;
+    }
+
+    div.b1-sec7-box1 {
+        width: 700px;
+        padding: 40px 0px 0px 0px;
+    }
+
+    h1.b1-sec7-h1 {
+        font-size: 65px;
+    }
+
+    p.b1-sec7-p {
+        max-width: 100%;
+    }
+
+    div.b1-sec7-box2 {
+        padding: 20px 50px 40px 50px;
+    }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+    div.b1-sec7-box1 {
+        padding: 40px 30px 0px 30px;
+    }
+
+    div.b1-sec7-box2 {
+        padding: 20px 100px 40px 100px;
+    }
+
+    div.b1-sec7-line {
+        width: auto;
+        margin: 10px 385px 15px 0px;
+    }
+
+    p.b1-sec7-p {
+        font-size: 15px;
+        max-width: 100%;
+    }
+
+    figure.xseries-ROS_img2 {
+        margin: 0px 0px 0px 0px;
+    }
+
+    h1.b1-sec7-h1 {
+        width: auto;
+    }
+}
+
+/* Fixes the ROS responsive issue */
+@media only screen and (max-width: 895px) {
+    div.b1-sec7-box1 {
+        padding: 30px 0px 20px 0px;
+    }
+
+    h1.b1-sec7-h1 {
+        width: 150px;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+    /* Remove the margin-right when we add the ROS 2 icon */
+    h1.b1-sec7-h1 {
+        width: auto;
+        margin: 0px 15px 0px 0px;
+        font-size: 55px;
+    }
+
+    p.b1-sec7-p {
+        font-size: 14px;
+        margin: 0px 30px 0px 30px;
+    }
+
+    div.b1-sec7-line {
+        width: auto;
+        margin: 15px 180px 15px 30px;
+    }
+
+    div.b1-sec7-box2 {
+        padding: 0px 30px 40px 30px;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 500px) {
+    h1.b1-sec7-h1 {
+        margin-top: 20px;
+        width: 200px;
+        font-size: 43px;
+    }
+}
+
+/* SECTION 8 */
+div.xseries-flex-container9 {
+    display: flex;
+    justify-content: center;
+    background: #ededed;
+    margin-bottom: 10px;
+}
+
+div.tutorial-box1 {
+    padding: 60px 50px 60px 120px;
+}
+
+div.tutorial-box2 {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 50px 120px 60px 50px;
+}
+
+h1.xseries-tutorial-h1 {
+    max-width: 670px;
+    color: #1a272d;
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+div.xseries-tutorial-line {
+    height: 2px;
+    background: #1a272d;
+    margin: 10px 370px 15px 0px;
+}
+
+p.xseries-tutorial-p {
+    max-width: 670px;
+    text-align: justify;
+}
+
+figure.b1-sec7-figure {
+    background: #ededed;
+}
+
+img.b1-sec7-img {
+    width: 700px;
+    height: 380px;
+    max-width: 100%;
+}
+
+ol#xseries-csrousel-indicators1 {
+    left: 35px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    top: 400px;
+}
+
+a.xseries-models-opensource {
+    color: #007cc4;
+}
+
+/* Arrow edits */
+.left-2 {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.right-2 {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1250px) {
+    div.xseries-flex-container9 {
+        flex-flow: wrap-reverse;
+    }
+
+    div.tutorial-box2 {
+        width: 700px;
+        padding: 40px 0px 0px 0px;
+    }
+
+    h1.xseries-tutorial-h1 {
+        max-width: 100%;
+        font-size: 55px;
+    }
+
+    div.xseries-tutorial-line {
+        margin-right: 358px;
+    }
+
+    p.xseries-tutorial-p {
+        max-width: 100%;
+    }
+
+    div.tutorial-box1 {
+        padding: 20px 50px 80px 50px;
+    }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+    img.b1-sec7-img {
+        width: 650px;
+        height: 340px;
+    }
+
+    div.tutorial-box1 {
+        padding: 20px 80px 80px 80px;
+    }
+
+    div.tutorial-box2 {
+        padding: 40px 30px 0px 30px;
+    }
+
+    h1.xseries-tutorial-h1 {
+        max-width: 100%;
+        font-size: 50px;
+    }
+
+    div.xseries-tutorial-line {
+        width: auto;
+        margin: 10px 385px 15px 0px;
+    }
+
+    p.xseries-tutorial-p {
+        max-width: 100%;
+    }
+
+    ol#xseries-csrousel-indicators1 {
+        top: 365px;
+    }
+
+    a.xseries-models-opensource {
+        max-width: 100%;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+    div.tutorial-box2 {
+        padding: 30px 0px 20px 0px;
+    }
+
+    h1.xseries-tutorial-h1 {
+        font-size: 50px;
+        margin: 0px 30px 0px 30px;
+    }
+
+    div.xseries-tutorial-line {
+        margin: 5px 155px 15px 30px;
+    }
+
+    p.xseries-tutorial-p {
+        margin: 0px 30px 10px 30px;
+    }
+
+    div.tutorial-box1 {
+        padding: 0px 50px 60px 50px;
+    }
+
+    img.b1-sec7-img {
+        width: 420px;
+        height: 200px;
+    }
+
+    ol#xseries-csrousel-indicators1 {
+        margin: 0px 30px 0px 30px;
+        top: 220px;
+        right: 35px;
+        left: 45px;
+    }
+
+    .carousel-control .icon-prev,
+    .carousel-control .glyphicon-chevron-left {
+        left: 10px;
+    }
+
+    a.xseries-models-opensource {
+        margin: 0px 30px 0px 30px;
     }
 }
