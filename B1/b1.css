@@ -672,22 +672,27 @@ div.b1-container6 {
     padding-bottom: 60px;
 }
 
-div.limo-sec6-box1 {
+div.b1-sec6-box2 {
     max-width: 700px;
     padding: 0px 50px 0px 0px;
 }
 
-div.limo-sec6-box2 {
+div.b1-sec6-box1 {
     margin-top: auto;
     margin-bottom: auto;
     padding: 0px 115px 0px 40px;
 }
 
-figure.limo-sec6-imgs {
-    max-width: 770px;
+figure.b1-sec6-left-figure {
+    width: 700px;
 }
 
-h1.limo-sec6-left-h1 {
+figure.b1-sec6-right-figure {
+    max-width: 85%;
+    padding-top: 15px;
+}
+
+h1.b1-sec6-left-h1 {
     max-width: 700px;
     font-size: 38.7px;
     color: #1a272d;
@@ -695,14 +700,20 @@ h1.limo-sec6-left-h1 {
     text-align: left;
 }
 
-h1.limo-sec6-right-h1 {
+h1.b1-sec6-right-h1 {
     font-size: 50px;
     color: #1a272d;
     margin: 0px 0px 0px 0px;
     text-align: center;
 }
 
-div.limo-sec6-line {
+div.b1-sec6-left-line {
+    height: 2px;
+    background: #1a272d;
+    margin: 10px 170px 15px 0px;
+}
+
+div.b1-sec6-right-line {
     height: 2px;
     background: #1a272d;
     margin: 10px 200px 15px 200px;
@@ -714,8 +725,19 @@ div.limo-sec6-line {
     background: #ccc;
 }
 
+.active {
+    background-color: white;
+}
+
 .carousel-indicators .active {
     background: #444;
+}
+
+.carousel-inner>.active {
+    text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
 }
 
 /* This is the box that makes the arrows function */
@@ -728,7 +750,7 @@ div.limo-sec6-line {
     bottom: 0px;
 }
 
-div.limo-sec6-content {
+div.b1-sec6-content {
     color: black;
     text-shadow: none;
     top: 50px;
@@ -736,17 +758,13 @@ div.limo-sec6-content {
     padding-top: 0px
 }
 
-p.limo-sec6-ca-h1 {
+p.b1-sec6-p {
     max-width: 700px;
     text-align: left;
     font-size: 16px;
     padding-top: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     background-color: white;
-}
-
-a.limo-sec6-link {
-    margin-bottom: 5px;
 }
 
 /* This edits the gradient on top of arrows left */
@@ -797,17 +815,13 @@ i.arrow.right-1 {
 }
 
 span#carousel-left-arrow {
-    margin-left: 50px;
-    margin-top: -50px;
+    margin-left: -40px;
+    margin-top: -75px;
 }
 
 span#carousel-right-arrow {
-    margin-right: 50px;
-    margin-top: -50px;
-}
-
-figure.xseries-contact-background2 {
-    background: #ededed;
+    margin-right: -40px;
+    margin-top: -75px;
 }
 
 /* RESPONSIVE */
@@ -819,11 +833,15 @@ figure.xseries-contact-background2 {
         padding-top: 30px;
     }
 
-    div.limo-sec6-box2 {
+    div.b1-sec6-box1 {
         padding: 0px 50px 0px 50px;
     }
 
-    div.limo-sec6-line {
+    div.b1-sec6-left-line {
+        margin: 10px 65px 15px 65px;
+    }
+
+    div.b1-sec6-right-line {
         margin: 10px 65px 15px 65px;
     }
 
@@ -847,30 +865,31 @@ figure.xseries-contact-background2 {
         padding: 40px 0px 40px 0px;
     }
 
-    div.limo-sec6-content {
+    div.b1-sec6-content {
         top: 0px;
     }
 
-    div.limo-sec6-box1 {
+    div.b1-sec6-box2 {
         padding: 40px 0px 0px 0px;
     }
 
-    h1.limo-sec6-right-h1 {
+    h1.b1-sec6-right-h1 {
         font-size: 50px;
     }
 
-    div.limo-sec6-line {
+    div.b1-sec6-left-line {
+        width: auto;
+        margin: 10px 400px 15px 0px;
+    }
+
+    div.b1-sec6-right-line {
         width: auto;
         margin: 10px 130px 15px 130px;
     }
 
-    p.limo-sec6-ca-h1 {
+    p.b1-sec6-p {
         font-size: 15px;
         margin-bottom: 30px;
-    }
-
-    a.limo-sec6-link {
-        font-size: 2vw;
     }
 }
 
@@ -882,12 +901,12 @@ figure.xseries-contact-background2 {
         margin-left: 30px;
     }
 
-    div.limo-sec6-content {
+    div.b1-sec6-content {
         left: 40px;
         padding-top: 5px;
     }
 
-    h1.limo-sec6-right-h1 {
+    h1.b1-sec6-right-h1 {
         font-size: 45px;
     }
 
@@ -902,16 +921,11 @@ figure.xseries-contact-background2 {
         margin-right: 20px;
     }
 
-    div.limo-sec6-box2 {
+    div.b1-sec6-box1 {
         padding: 0px 0px 0px 0px;
     }
 
-    p.limo-sec6-ca-h1 {
+    p.b1-sec6-p {
         font-size: 15.5px;
-    }
-
-    a.limo-sec6-link {
-        font-size: 15px;
-        margin: 5px 50px 0px 0px;
     }
 }
