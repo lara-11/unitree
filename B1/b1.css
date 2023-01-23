@@ -663,7 +663,7 @@ div.b1-sec5-box2 {
 }
 
 /* SECTION 6 */
-div.limo-container6 {
+div.b1-container6 {
     display: flex;
     justify-content: center;
     padding-top: 50px;
@@ -812,7 +812,7 @@ figure.xseries-contact-background2 {
 
 /* RESPONSIVE */
 @media only screen and (max-width: 1250px) {
-    div.limo-container6 {
+    div.b1-container6 {
         margin-left: 50px;
         margin-right: 50px;
         padding-bottom: 40px;
@@ -842,7 +842,7 @@ figure.xseries-contact-background2 {
 @media only screen and (max-width: 1024px) {
 
     /* Revise later, doesnt want to apply */
-    div.limo-container6 {
+    div.b1-container6 {
         flex-flow: wrap;
         padding: 40px 0px 40px 0px;
     }
@@ -876,7 +876,7 @@ figure.xseries-contact-background2 {
 
 /* MOBILE */
 @media only screen and (max-width: 736px) {
-    div.limo-container6 {
+    div.b1-container6 {
         padding: 15px 0px 30px 0px;
         margin-right: 30px;
         margin-left: 30px;
