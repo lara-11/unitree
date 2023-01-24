@@ -732,12 +732,12 @@ div.b1-sec6-right-line {
     background: #444;
 }
 
-.carousel-inner>.active {
+/* .carousel-inner>.active {
     text-align: center;
     display: flex;
     flex-flow: wrap;
     justify-content: center;
-}
+} */
 
 /* This is the box that makes the arrows function */
 .carousel-control {
@@ -968,10 +968,6 @@ h1.b1-sec7-h1 {
     margin: 0px 30px 0px 0px;
 }
 
-figure.xseries-ROS_img2 {
-    margin: 0px 30px 0px 0px;
-}
-
 div.b1-sec7-line {
     height: 2px;
     background: #1a272d;
@@ -1031,10 +1027,6 @@ div.b1-sec7-box2 {
         max-width: 100%;
     }
 
-    figure.xseries-ROS_img2 {
-        margin: 0px 0px 0px 0px;
-    }
-
     h1.b1-sec7-h1 {
         width: auto;
     }
@@ -1085,61 +1077,67 @@ div.b1-sec7-box2 {
 }
 
 /* SECTION 8 */
-div.xseries-flex-container9 {
+div.b1-container8 {
     display: flex;
     justify-content: center;
     background: #ededed;
     margin-bottom: 10px;
 }
 
-div.tutorial-box1 {
+div.b1-sec8-box1 {
     padding: 60px 50px 60px 120px;
 }
 
-div.tutorial-box2 {
+div.b1-sec8-box2 {
     margin-top: auto;
     margin-bottom: auto;
     padding: 50px 120px 60px 50px;
 }
 
-h1.xseries-tutorial-h1 {
+h1.b1-sec8-h1 {
     max-width: 670px;
     color: #1a272d;
     font-size: 60px;
     margin-top: 0px;
 }
 
-div.xseries-tutorial-line {
+div.b1-sec8-line {
     height: 2px;
     background: #1a272d;
     margin: 10px 370px 15px 0px;
 }
 
-p.xseries-tutorial-p {
+p.b1-sec8-box1-p {
+    max-width: 700px;
+    text-align: left;
+    font-size: 16px;
+    padding-top: 15px;
+    color: black;
+    background-color: #ededed;
+}
+
+p.b1-sec8-box2-p {
     max-width: 670px;
     text-align: justify;
 }
 
-figure.b1-sec7-figure {
-    background: #ededed;
+figure.b1-sec8-figure {
+    max-width: 100%;
+    padding-top: 15px;
 }
 
-img.b1-sec7-img {
+img.b1-sec8-img {
     width: 700px;
     height: 380px;
     max-width: 100%;
 }
 
-ol#xseries-csrousel-indicators1 {
+ol#b1-indicators {
     left: 35px;
     margin-bottom: 0px;
     margin-left: 100px;
     margin-right: 100px;
-    top: 400px;
-}
-
-a.xseries-models-opensource {
-    color: #007cc4;
+    top: 480px;
 }
 
 /* Arrow edits */
@@ -1155,100 +1153,105 @@ a.xseries-models-opensource {
 
 /* RESPONSIVE */
 @media only screen and (max-width: 1250px) {
-    div.xseries-flex-container9 {
+    div.b1-container8 {
         flex-flow: wrap-reverse;
     }
 
-    div.tutorial-box2 {
+    div.b1-sec8-box2 {
         width: 700px;
         padding: 40px 0px 0px 0px;
     }
 
-    h1.xseries-tutorial-h1 {
+    h1.b1-sec8-h1 {
         max-width: 100%;
         font-size: 55px;
     }
 
-    div.xseries-tutorial-line {
+    div.b1-sec8-line {
         margin-right: 358px;
     }
 
-    p.xseries-tutorial-p {
+    p.b1-sec8-box2-p {
         max-width: 100%;
     }
 
-    div.tutorial-box1 {
+    div.b1-sec8-box1 {
         padding: 20px 50px 80px 50px;
     }
 }
 
 /* TABLET */
 @media only screen and (max-width: 1024px) {
-    img.b1-sec7-img {
+    img.b1-sec8-img {
         width: 650px;
         height: 340px;
     }
 
-    div.tutorial-box1 {
+    div.b1-sec8-box1 {
         padding: 20px 80px 80px 80px;
     }
 
-    div.tutorial-box2 {
+    div.b1-sec8-box2 {
         padding: 40px 30px 0px 30px;
     }
 
-    h1.xseries-tutorial-h1 {
+    h1.b1-sec8-h1 {
         max-width: 100%;
         font-size: 50px;
     }
 
-    div.xseries-tutorial-line {
+    div.b1-sec8-line {
         width: auto;
         margin: 10px 385px 15px 0px;
     }
 
-    p.xseries-tutorial-p {
+    p.b1-sec8-box1-p {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    p.b1-sec8-box2-p {
         max-width: 100%;
     }
 
-    ol#xseries-csrousel-indicators1 {
+    ol#b1-indicators {
         top: 365px;
-    }
-
-    a.xseries-models-opensource {
-        max-width: 100%;
     }
 }
 
 /* MOBILE */
 @media only screen and (max-width: 736px) {
-    div.tutorial-box2 {
+    div.b1-sec8-box2 {
         padding: 30px 0px 20px 0px;
     }
 
-    h1.xseries-tutorial-h1 {
+    h1.b1-sec8-h1 {
         font-size: 50px;
         margin: 0px 30px 0px 30px;
     }
 
-    div.xseries-tutorial-line {
+    div.b1-sec8-line {
         margin: 5px 155px 15px 30px;
     }
 
-    p.xseries-tutorial-p {
+    p.b1-sec8-box1-p {
+        font-size: 15.5px;
+    }
+
+    p.b1-sec8-box2-p {
         margin: 0px 30px 10px 30px;
     }
 
-    div.tutorial-box1 {
+    div.b1-sec8-box1 {
         padding: 0px 50px 60px 50px;
     }
 
-    img.b1-sec7-img {
+    img.b1-sec8-img {
         width: 420px;
         height: 200px;
     }
 
-    ol#xseries-csrousel-indicators1 {
+    ol#b1-indicators {
         margin: 0px 30px 0px 30px;
         top: 220px;
         right: 35px;
@@ -1258,9 +1261,5 @@ a.xseries-models-opensource {
     .carousel-control .icon-prev,
     .carousel-control .glyphicon-chevron-left {
         left: 10px;
-    }
-
-    a.xseries-models-opensource {
-        margin: 0px 30px 0px 30px;
     }
 }

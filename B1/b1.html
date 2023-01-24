@@ -231,49 +231,58 @@
     </div>
 
     <!--SECTION 8-->
-    <div class="xseries-flex-container9">
-        <div class="tutorial-box1">
+    <div class="b1-container8">
+        <div class="b1-sec8-box1">
 
             <!--CAROUSEL-->
             <div id="myCarousel1" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
-                <ol id="xseries-csrousel-indicators1" class="carousel-indicators">
+                <ol id="b1-indicators" class="carousel-indicators">
                     <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel1" data-slide-to="1"></li>
                     <li data-target="#myCarousel1" data-slide-to="2"></li>
                 </ol>
 
                 <!-- Wrapper for slides -->
-                <!--width: 600 height: 315 before increased edits-->
                 <div class="carousel-inner">
                     <!--INFO1-->
                     <div class="item active">
-                        <figure class="b1-sec7-figure">
-                            <img src="/Shared/Unitree/controller.jpg" data-image="0" class="b1-sec7-img">
+                        <figure class="b1-sec8-figure">
+                            <img src="/Shared/Unitree/controller.jpg" data-image="0" class="b1-sec8-img">
                         </figure>
 
                         <div class="b1-sec8-content">
-                            <p class="b1-sec8-right-p"><b>Its waterproof design and durable construction </b> make it ideal for open-air operation in harsh conditions. The robot weighs 50 kg and its dimensions are 1108 x 461 x 671 mm.
+                            <p class="b1-sec8-box1-p"><b>Its waterproof design and durable construction </b> make it ideal for open-air operation in harsh conditions. The robot weighs 50 kg and its dimensions are 1108 x 461 x 671 mm.
                             </p>
                         </div>
                     </div>
 
                     <!--INFO2-->
                     <div class="item">
-                        <figure class="b1-sec7-figure">
-                            <img src="/Shared/Unitree/app.jpg" data-image="0" class="b1-sec7-img">
+                        <figure class="b1-sec8-figure">
+                            <img src="/Shared/Unitree/app.jpg" data-image="0" class="b1-sec8-img">
                         </figure>
+
+                        <div class="b1-sec8-content">
+                            <p class="b1-sec8-box1-p"><b>Its waterproof design and durable construction </b> make it ideal for open-air operation in harsh conditions. The robot weighs 50 kg and its dimensions are 1108 x 461 x 671 mm.
+                            </p>
+                        </div>
                     </div>
 
                     <!--INFO3-->
                     <div class="item">
-                        <figure class="b1-sec7-figure">
-                            <img src="/Shared/Unitree/battery.jpg" data-image="0" class="b1-sec7-img">
+                        <figure class="b1-sec8-figure">
+                            <img src="/Shared/Unitree/battery.jpg" data-image="0" class="b1-sec8-img">
                         </figure>
+
+                        <div class="b1-sec8-content">
+                            <p class="b1-sec8-box1-p"><b>Its waterproof design and durable construction </b> make it ideal for open-air operation in harsh conditions. The robot weighs 50 kg and its dimensions are 1108 x 461 x 671 mm.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Left and right controls -->
+                <!-- L & R ARROWS -->
                 <a class="left carousel-control" href="#myCarousel1" data-slide="prev" style="right: 600px;">
                     <span class="glyphicon glyphicon-chevron-left 2" style="margin-left: -40px;"><i
                             class="arrow left-2"></i></span>
@@ -287,17 +296,11 @@
             </div>
         </div>
 
-        <div class="tutorial-box2">
-            <h1 class="xseries-tutorial-h1">Hardware Capabilities</h1>
-            <div class="xseries-tutorial-line"></div>
+        <div class="b1-sec8-box2">
+            <h1 class="b1-sec8-h1">Hardware Capabilities</h1>
+            <div class="b1-sec8-line"></div>
 
-            <p class="xseries-tutorial-p">Videos designed to get users familiarized with important concepts quickly,
-                demos and videos are available for: Gazebo simulation, Moveit motion planning and API, perception
-                pipeline configuration, Python demos and more.</p>
-
-            <!--<a href="https://www.trossenrobotics.com/docs/interbotix_xsarms/ros_packages/index.html"
-                class="xseries-models-opensource" target="_blank" rel="noopener noreferrer" style="color: #007cc4;">View
-                all open-source demos</a>-->
+            <p class="b1-sec8-box2-p">Videos designed to get users familiarized with important concepts quickly, demos and videos are available for: Gazebo simulation, Moveit motion planning and API, perception pipeline configuration, Python demos and more.</p>
         </div>
     </div>
 </div>
@@ -1038,12 +1041,12 @@ div.b1-sec6-right-line {
     background: #444;
 }
 
-.carousel-inner>.active {
+/* .carousel-inner>.active {
     text-align: center;
     display: flex;
     flex-flow: wrap;
     justify-content: center;
-}
+} */
 
 /* This is the box that makes the arrows function */
 .carousel-control {
@@ -1274,10 +1277,6 @@ h1.b1-sec7-h1 {
     margin: 0px 30px 0px 0px;
 }
 
-figure.xseries-ROS_img2 {
-    margin: 0px 30px 0px 0px;
-}
-
 div.b1-sec7-line {
     height: 2px;
     background: #1a272d;
@@ -1337,10 +1336,6 @@ div.b1-sec7-box2 {
         max-width: 100%;
     }
 
-    figure.xseries-ROS_img2 {
-        margin: 0px 0px 0px 0px;
-    }
-
     h1.b1-sec7-h1 {
         width: auto;
     }
@@ -1391,61 +1386,67 @@ div.b1-sec7-box2 {
 }
 
 /* SECTION 8 */
-div.xseries-flex-container9 {
+div.b1-container8 {
     display: flex;
     justify-content: center;
     background: #ededed;
     margin-bottom: 10px;
 }
 
-div.tutorial-box1 {
+div.b1-sec8-box1 {
     padding: 60px 50px 60px 120px;
 }
 
-div.tutorial-box2 {
+div.b1-sec8-box2 {
     margin-top: auto;
     margin-bottom: auto;
     padding: 50px 120px 60px 50px;
 }
 
-h1.xseries-tutorial-h1 {
+h1.b1-sec8-h1 {
     max-width: 670px;
     color: #1a272d;
     font-size: 60px;
     margin-top: 0px;
 }
 
-div.xseries-tutorial-line {
+div.b1-sec8-line {
     height: 2px;
     background: #1a272d;
     margin: 10px 370px 15px 0px;
 }
 
-p.xseries-tutorial-p {
+p.b1-sec8-box1-p {
+    max-width: 700px;
+    text-align: left;
+    font-size: 16px;
+    padding-top: 15px;
+    color: black;
+    background-color: #ededed;
+}
+
+p.b1-sec8-box2-p {
     max-width: 670px;
     text-align: justify;
 }
 
-figure.b1-sec7-figure {
-    background: #ededed;
+figure.b1-sec8-figure {
+    max-width: 100%;
+    padding-top: 15px;
 }
 
-img.b1-sec7-img {
+img.b1-sec8-img {
     width: 700px;
     height: 380px;
     max-width: 100%;
 }
 
-ol#xseries-csrousel-indicators1 {
+ol#b1-indicators {
     left: 35px;
     margin-bottom: 0px;
     margin-left: 100px;
     margin-right: 100px;
-    top: 400px;
-}
-
-a.xseries-models-opensource {
-    color: #007cc4;
+    top: 480px;
 }
 
 /* Arrow edits */
@@ -1461,100 +1462,105 @@ a.xseries-models-opensource {
 
 /* RESPONSIVE */
 @media only screen and (max-width: 1250px) {
-    div.xseries-flex-container9 {
+    div.b1-container8 {
         flex-flow: wrap-reverse;
     }
 
-    div.tutorial-box2 {
+    div.b1-sec8-box2 {
         width: 700px;
         padding: 40px 0px 0px 0px;
     }
 
-    h1.xseries-tutorial-h1 {
+    h1.b1-sec8-h1 {
         max-width: 100%;
         font-size: 55px;
     }
 
-    div.xseries-tutorial-line {
+    div.b1-sec8-line {
         margin-right: 358px;
     }
 
-    p.xseries-tutorial-p {
+    p.b1-sec8-box2-p {
         max-width: 100%;
     }
 
-    div.tutorial-box1 {
+    div.b1-sec8-box1 {
         padding: 20px 50px 80px 50px;
     }
 }
 
 /* TABLET */
 @media only screen and (max-width: 1024px) {
-    img.b1-sec7-img {
+    img.b1-sec8-img {
         width: 650px;
         height: 340px;
     }
 
-    div.tutorial-box1 {
+    div.b1-sec8-box1 {
         padding: 20px 80px 80px 80px;
     }
 
-    div.tutorial-box2 {
+    div.b1-sec8-box2 {
         padding: 40px 30px 0px 30px;
     }
 
-    h1.xseries-tutorial-h1 {
+    h1.b1-sec8-h1 {
         max-width: 100%;
         font-size: 50px;
     }
 
-    div.xseries-tutorial-line {
+    div.b1-sec8-line {
         width: auto;
         margin: 10px 385px 15px 0px;
     }
 
-    p.xseries-tutorial-p {
+    p.b1-sec8-box1-p {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    p.b1-sec8-box2-p {
         max-width: 100%;
     }
 
-    ol#xseries-csrousel-indicators1 {
+    ol#b1-indicators {
         top: 365px;
-    }
-
-    a.xseries-models-opensource {
-        max-width: 100%;
     }
 }
 
 /* MOBILE */
 @media only screen and (max-width: 736px) {
-    div.tutorial-box2 {
+    div.b1-sec8-box2 {
         padding: 30px 0px 20px 0px;
     }
 
-    h1.xseries-tutorial-h1 {
+    h1.b1-sec8-h1 {
         font-size: 50px;
         margin: 0px 30px 0px 30px;
     }
 
-    div.xseries-tutorial-line {
+    div.b1-sec8-line {
         margin: 5px 155px 15px 30px;
     }
 
-    p.xseries-tutorial-p {
+    p.b1-sec8-box1-p {
+        font-size: 15.5px;
+    }
+
+    p.b1-sec8-box2-p {
         margin: 0px 30px 10px 30px;
     }
 
-    div.tutorial-box1 {
+    div.b1-sec8-box1 {
         padding: 0px 50px 60px 50px;
     }
 
-    img.b1-sec7-img {
+    img.b1-sec8-img {
         width: 420px;
         height: 200px;
     }
 
-    ol#xseries-csrousel-indicators1 {
+    ol#b1-indicators {
         margin: 0px 30px 0px 30px;
         top: 220px;
         right: 35px;
@@ -1565,9 +1571,6 @@ a.xseries-models-opensource {
     .carousel-control .glyphicon-chevron-left {
         left: 10px;
     }
-
-    a.xseries-models-opensource {
-        margin: 0px 30px 0px 30px;
-    }
 }
+
 </style>
