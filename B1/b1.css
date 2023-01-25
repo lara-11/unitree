@@ -825,12 +825,12 @@ i.arrow.right-1 {
 
 span#carousel-left-arrow {
   margin-left: -40px;
-  margin-top: -75px;
+  margin-top: -70px;
 }
 
 span#carousel-right-arrow {
   margin-right: -40px;
-  margin-top: -75px;
+  margin-top: -70px;
 }
 
 /* RESPONSIVE */
@@ -979,7 +979,19 @@ p.b1-sec7-p {
 }
 
 div.b1-sec7-box2 {
-  padding: 60px 120px 60px 50px;
+  padding: 20px 120px 45px 50px;
+}
+
+figure.b1-sec7-figure {
+  height: 450px;
+}
+
+img.b1-sec7-img {
+  width: 700px;
+}
+
+p.b1-sec7-p2 {
+  text-align: center;
 }
 
 /* RESPONSIVE */
@@ -1079,7 +1091,7 @@ div.b1-sec7-box2 {
 div.b1-container8 {
   display: flex;
   justify-content: center;
-  background: #ededed;
+  background: #e2f2fb;
   margin-bottom: 10px;
 }
 
@@ -1135,7 +1147,7 @@ ol#b1-indicators {
   margin-bottom: 0px;
   margin-left: 100px;
   margin-right: 100px;
-  top: 480px;
+  top: 495px;
 }
 
 /* Arrow edits */
