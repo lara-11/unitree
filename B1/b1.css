@@ -425,6 +425,7 @@ div.b1-sec4-box1 {
 
 img.b1-sec4-img {
   width: 700px;
+  height: 390px;
 }
 
 div.b1-sec4-box2 {
@@ -436,7 +437,7 @@ div.b1-sec4-box2 {
 h1.b1-sec4-h1 {
   max-width: 670px;
   text-align: left;
-  font-size: 60px;
+  font-size: 55px;
   color: #1a272d;
   margin-top: 0px;
 }
@@ -533,139 +534,11 @@ p.b1-sce4-p {
   }
 }
 
-/* SECTION 5 */
-div.b1-container5 {
-  display: flex;
-  justify-content: center;
-  background: #ededed;
-  margin-bottom: 10px;
-}
-
-div.b1-sec5-box1 {
-  margin-top: auto;
-  margin-bottom: auto;
-  padding: 50px 50px 60px 120px;
-}
-
-h1.b1-sec5-h1 {
-  max-width: 740px;
-  font-size: 60px;
-  color: #1a272d;
-  margin: 0px 0px 10px 0px;
-}
-
-div.b1-sec5-line {
-  height: 2px;
-  background: #1a272d;
-  margin: 10px 435px 15px 0px;
-}
-
-p.b1-sec5-p {
-  max-width: 740px;
-  font-size: 23px;
-}
-
-div.b1-sec5-links {
-  display: flex;
-  flex-flow: column;
-}
-
-div.b1-sec5-box2 {
-  width: 800px;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding: 50px 120px 60px 50px;
-}
-
-/* Responsive fix */
-@media only screen and (max-width: 1268px) {
-  div.b1-sec5-box1 {
-    padding-top: 80px;
-  }
-}
-
-/* RESPONSIVE */
-@media only screen and (max-width: 1250px) {
-  h1.b1-sec5-h1 {
-    font-size: 55px;
-  }
-
-  div.b1-sec5-line {
-    margin-right: 80px;
-  }
-}
-
-/* TABLET */
-@media only screen and (max-width: 1024px) {
-  div.b1-container5 {
-    flex-flow: wrap;
-  }
-
-  div.b1-sec5-box1 {
-    width: 700px;
-    padding: 30px 30px 20px 30px;
-  }
-
-  h1.b1-sec5-h1 {
-    font-size: 49px;
-  }
-
-  div.b1-sec5-line {
-    width: auto;
-    margin: 10px 0px 15px 0px;
-  }
-
-  p.b1-sec5-p {
-    font-size: 17.5px;
-    margin: 0px 225px 0px 0px;
-  }
-
-  div.b1-sec5-links {
-    margin-left: 0px;
-  }
-
-  div.b1-sec5-box2 {
-    padding: 10px 0px 40px 0px;
-    margin: 0px 30px 0px 30px;
-  }
-
-  figure.b1-laptop-figure {
-    max-width: 550px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-/* MOBILE */
-@media only screen and (max-width: 736px) {
-  div.b1-sec5-box1 {
-    padding: 30px 30px 20px 30px;
-  }
-
-  h1.b1-sec5-h1 {
-    font-size: 38px;
-    margin: 0px 0px 0px 0px;
-  }
-
-  div.b1-sec5-line {
-    margin-right: 180px;
-  }
-
-  p.b1-sec5-p {
-    font-size: 19px;
-    margin: 0px 0px 0px 0px;
-  }
-
-  div.b1-sec5-box2 {
-    padding: 10px 0px 40px 0px;
-    margin: 0px 30px 0px 30px;
-  }
-}
-
 /* SECTION 6 */
 div.b1-container6 {
   display: flex;
   justify-content: center;
+  flex-flow: row-reverse;
   padding-top: 50px;
   margin-right: 80px;
   margin-left: 80px;
@@ -947,151 +820,11 @@ span#carousel-right-arrow {
   }
 }
 
-/* SECTION 7 */
-div.b1-container7 {
-  display: flex;
-  justify-content: center;
-  background: #e2f2fb;
-  margin-bottom: 10px;
-}
-
-div.b1-sec7-box1 {
-  margin-top: auto;
-  margin-bottom: auto;
-  padding: 50px 50px 60px 120px;
-}
-
-h1.b1-sec7-h1 {
-  font-size: 62px;
-  color: #1a272d;
-  margin: 0px 30px 0px 0px;
-}
-
-div.b1-sec7-line {
-  height: 2px;
-  background: #1a272d;
-  margin: 10px 425px 15px 0px;
-}
-
-p.b1-sec7-p {
-  max-width: 670px;
-  text-align: justify;
-}
-
-div.b1-sec7-box2 {
-  padding: 20px 120px 45px 50px;
-}
-
-figure.b1-sec7-figure {
-  height: 450px;
-}
-
-img.b1-sec7-img {
-  width: 700px;
-}
-
-p.b1-sec7-p2 {
-  text-align: center;
-}
-
-/* RESPONSIVE */
-@media only screen and (max-width: 1250px) {
-  div.b1-container7 {
-    flex-flow: wrap;
-  }
-
-  div.b1-sec7-box1 {
-    width: 700px;
-    padding: 40px 0px 0px 0px;
-  }
-
-  h1.b1-sec7-h1 {
-    font-size: 65px;
-  }
-
-  p.b1-sec7-p {
-    max-width: 100%;
-  }
-
-  div.b1-sec7-box2 {
-    padding: 20px 50px 40px 50px;
-  }
-}
-
-/* TABLET */
-@media only screen and (max-width: 1024px) {
-  div.b1-sec7-box1 {
-    padding: 40px 30px 0px 30px;
-  }
-
-  div.b1-sec7-box2 {
-    padding: 20px 100px 40px 100px;
-  }
-
-  div.b1-sec7-line {
-    width: auto;
-    margin: 10px 385px 15px 0px;
-  }
-
-  p.b1-sec7-p {
-    font-size: 15px;
-    max-width: 100%;
-  }
-
-  h1.b1-sec7-h1 {
-    width: auto;
-  }
-}
-
-/* Fixes the ROS responsive issue */
-@media only screen and (max-width: 895px) {
-  div.b1-sec7-box1 {
-    padding: 30px 0px 20px 0px;
-  }
-
-  h1.b1-sec7-h1 {
-    width: 150px;
-  }
-}
-
-/* MOBILE */
-@media only screen and (max-width: 736px) {
-  /* Remove the margin-right when we add the ROS 2 icon */
-  h1.b1-sec7-h1 {
-    width: auto;
-    margin: 0px 15px 0px 0px;
-    font-size: 55px;
-  }
-
-  p.b1-sec7-p {
-    font-size: 14px;
-    margin: 0px 30px 0px 30px;
-  }
-
-  div.b1-sec7-line {
-    width: auto;
-    margin: 15px 180px 15px 30px;
-  }
-
-  div.b1-sec7-box2 {
-    padding: 0px 30px 40px 30px;
-  }
-}
-
-/* MOBILE */
-@media only screen and (max-width: 500px) {
-  h1.b1-sec7-h1 {
-    margin-top: 20px;
-    width: 200px;
-    font-size: 43px;
-  }
-}
-
 /* SECTION 8 */
 div.b1-container8 {
   display: flex;
   justify-content: center;
-  background: #e2f2fb;
+  background: #ededed;
   margin-bottom: 10px;
 }
 
@@ -1271,6 +1004,305 @@ ol#b1-indicators {
   .carousel-control .icon-prev,
   .carousel-control .glyphicon-chevron-left {
     left: 10px;
+  }
+}
+
+/* SECTION 8 */
+div.unitree-flex-container8 {
+  display: flex;
+  justify-content: center;
+  padding: 40px 120px 40px 120px;
+  background: #e2f2fb;
+}
+
+figure.unitree-sec8-img {
+  max-width: 1150px;
+}
+
+img.text-size {
+  width: 1150px;
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+  div.unitree-flex-container8 {
+      margin: 30px 80px 30px 80px;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+  div.unitree-flex-container8 {
+      margin: 20px 20px 20px 30px;
+  }
+}
+
+/* SECTION 7 */
+div.b1-container7 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+div.b1-sec7-box1 {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 50px 50px 60px 120px;
+}
+
+h1.b1-sec7-h1 {
+  font-size: 62px;
+  color: #1a272d;
+  margin: 0px 30px 0px 0px;
+}
+
+div.b1-sec7-line {
+  height: 2px;
+  background: #1a272d;
+  margin: 10px 425px 15px 0px;
+}
+
+p.b1-sec7-p {
+  max-width: 670px;
+  text-align: justify;
+}
+
+div.b1-sec7-box2 {
+  padding: 20px 120px 45px 50px;
+}
+
+figure.b1-sec7-figure {
+  height: 450px;
+}
+
+img.b1-sec7-img {
+  width: 700px;
+}
+
+p.b1-sec7-p2 {
+  text-align: center;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1250px) {
+  div.b1-container7 {
+    flex-flow: wrap;
+  }
+
+  div.b1-sec7-box1 {
+    width: 700px;
+    padding: 40px 0px 0px 0px;
+  }
+
+  h1.b1-sec7-h1 {
+    font-size: 65px;
+  }
+
+  p.b1-sec7-p {
+    max-width: 100%;
+  }
+
+  div.b1-sec7-box2 {
+    padding: 20px 50px 40px 50px;
+  }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+  div.b1-sec7-box1 {
+    padding: 40px 30px 0px 30px;
+  }
+
+  div.b1-sec7-box2 {
+    padding: 20px 100px 40px 100px;
+  }
+
+  div.b1-sec7-line {
+    width: auto;
+    margin: 10px 385px 15px 0px;
+  }
+
+  p.b1-sec7-p {
+    font-size: 15px;
+    max-width: 100%;
+  }
+
+  h1.b1-sec7-h1 {
+    width: auto;
+  }
+}
+
+/* Fixes the ROS responsive issue */
+@media only screen and (max-width: 895px) {
+  div.b1-sec7-box1 {
+    padding: 30px 0px 20px 0px;
+  }
+
+  h1.b1-sec7-h1 {
+    width: 150px;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+  /* Remove the margin-right when we add the ROS 2 icon */
+  h1.b1-sec7-h1 {
+    width: auto;
+    margin: 0px 15px 0px 0px;
+    font-size: 55px;
+  }
+
+  p.b1-sec7-p {
+    font-size: 14px;
+    margin: 0px 30px 0px 30px;
+  }
+
+  div.b1-sec7-line {
+    width: auto;
+    margin: 15px 180px 15px 30px;
+  }
+
+  div.b1-sec7-box2 {
+    padding: 0px 30px 40px 30px;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 500px) {
+  h1.b1-sec7-h1 {
+    margin-top: 20px;
+    width: 200px;
+    font-size: 43px;
+  }
+}
+
+/* SECTION 5 */
+div.b1-container5 {
+  display: flex;
+  justify-content: center;
+  background: #ededed;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+div.b1-sec5-box1 {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 50px 50px 60px 120px;
+}
+
+h1.b1-sec5-h1 {
+  max-width: 740px;
+  font-size: 60px;
+  color: #1a272d;
+  margin: 0px 0px 10px 0px;
+}
+
+div.b1-sec5-line {
+  height: 2px;
+  background: #1a272d;
+  margin: 10px 435px 15px 0px;
+}
+
+p.b1-sec5-p {
+  max-width: 740px;
+  font-size: 23px;
+}
+
+div.b1-sec5-links {
+  display: flex;
+  flex-flow: column;
+}
+
+div.b1-sec5-box2 {
+  width: 800px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 50px 120px 60px 50px;
+}
+
+/* Responsive fix */
+@media only screen and (max-width: 1268px) {
+  div.b1-sec5-box1 {
+    padding-top: 80px;
+  }
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1250px) {
+  h1.b1-sec5-h1 {
+    font-size: 55px;
+  }
+
+  div.b1-sec5-line {
+    margin-right: 80px;
+  }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+  div.b1-container5 {
+    flex-flow: wrap;
+  }
+
+  div.b1-sec5-box1 {
+    width: 700px;
+    padding: 30px 30px 20px 30px;
+  }
+
+  h1.b1-sec5-h1 {
+    font-size: 49px;
+  }
+
+  div.b1-sec5-line {
+    width: auto;
+    margin: 10px 0px 15px 0px;
+  }
+
+  p.b1-sec5-p {
+    font-size: 17.5px;
+    margin: 0px 225px 0px 0px;
+  }
+
+  div.b1-sec5-links {
+    margin-left: 0px;
+  }
+
+  div.b1-sec5-box2 {
+    padding: 10px 0px 40px 0px;
+    margin: 0px 30px 0px 30px;
+  }
+
+  figure.b1-laptop-figure {
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+  div.b1-sec5-box1 {
+    padding: 30px 30px 20px 30px;
+  }
+
+  h1.b1-sec5-h1 {
+    font-size: 38px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  div.b1-sec5-line {
+    margin-right: 180px;
+  }
+
+  p.b1-sec5-p {
+    font-size: 19px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  div.b1-sec5-box2 {
+    padding: 10px 0px 40px 0px;
+    margin: 0px 30px 0px 30px;
   }
 }
 
