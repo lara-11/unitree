@@ -182,7 +182,7 @@
                           <!--INFO1-->
                           <div class="item active">
                               <figure class="b1-sec7-right-figure">
-                                  <img src="/Shared/Unitree/b1-bricks.jpg" data-image="0">
+                                  <img src="/Shared/Unitree/b1-bricks.jpg" data-image="0" style="width: 100%;">
                               </figure>
 
                               <div class="b1-sec7-content">
@@ -194,7 +194,7 @@
                           <!--INFO2-->
                           <div class="item">
                               <figure class="b1-sec7-right-figure">
-                                  <img src="/Shared/Unitree/b1-terrain.jpg" data-image="0">
+                                  <img src="/Shared/Unitree/b1-terrain.jpg" data-image="0" style="width: 100%;">
                               </figure>
 
                               <div class="b1-sec7-content">
@@ -206,7 +206,7 @@
                           <!--INFO3-->
                           <div class="item">
                               <figure class="b1-sec7-right-figure">
-                                  <img src="/Shared/Unitree/b1-tracks.jpg" data-image="0">
+                                  <img src="/Shared/Unitree/b1-tracks.jpg" data-image="0" style="width: 100%;">
                               </figure>
 
                               <div class="b1-sec7-content">
@@ -219,7 +219,7 @@
                           <!--INFO4-->
                             <div class="item">
                                 <figure class="b1-sec7-right-figure">
-                                    <img src="/Shared/Unitree/b1-water.jpg" data-image="0">
+                                    <img src="/Shared/Unitree/b1-water.jpg" data-image="0" style="width: 100%;">
                                 </figure>
 
                                 <div class="b1-sec7-content">
@@ -264,7 +264,7 @@
                   <!--INFO1-->
                   <div class="item active">
                       <figure class="b1-sec8-figure">
-                          <img src="/Shared/Unitree/b1-and-controller.jpg" data-image="0" class="b1-sec8-img">
+                          <img src="/Shared/Unitree/b1-and-controller.jpg" data-image="0" class="b1-sec8-img" style="width: 100%;">
                       </figure>
 
                       <div class="b1-sec8-content">
@@ -276,7 +276,7 @@
                   <!--INFO2-->
                   <div class="item">
                       <figure class="b1-sec8-figure">
-                          <img src="/Shared/Unitree/b1-phone-app.jpg" data-image="0" class="b1-sec8-img">
+                          <img src="/Shared/Unitree/b1-phone-app.jpg" data-image="0" class="b1-sec8-img" style="width: 100%;">
                       </figure>
 
                       <div class="b1-sec8-content">
@@ -288,7 +288,7 @@
                   <!--INFO3-->
                   <div class="item">
                       <figure class="b1-sec8-figure">
-                          <img src="/Shared/Unitree/b1-and-battery.jpg" data-image="0" class="b1-sec8-img">
+                          <img src="/Shared/Unitree/b1-and-battery.jpg" data-image="0" class="b1-sec8-img" style="width: 100%;">
                       </figure>
 
                       <div class="b1-sec8-content">
@@ -300,13 +300,13 @@
 
               <!-- L & R ARROWS -->
               <a class="left carousel-control" href="#myCarousel1" data-slide="prev" style="right: 600px;">
-                  <span id="carousel-left-arrow2" class="glyphicon glyphicon-chevron-left 2" style="margin-left: -40px;"><i
+                  <span id="carousel-left-arrow2" class="glyphicon glyphicon-chevron-left 2"><i
                           class="arrow left-2"></i></span>
                   <span class="sr-only">Previous</span>
                   <p></p>
               </a>
               <a class="right carousel-control" href="#myCarousel1" data-slide="next">
-                  <span id="carousel-right-arrow2" class="glyphicon glyphicon-chevron-right 2" style="left: 10px;"><i class="arrow right-2"></i></span>
+                  <span id="carousel-right-arrow2" class="glyphicon glyphicon-chevron-right 2"><i class="arrow right-2"></i></span>
                   <span class="sr-only">Next</span>
               </a>
           </div>
@@ -1100,7 +1100,7 @@ p.b1-sce4-p {
   }
 
   h1.b1-sec4-h1 {
-    font-size: 29px;
+    font-size: 32px;
     text-align: left;
   }
 
@@ -1144,11 +1144,13 @@ p.b1-sec5-p {
 }
 
 div.b1-sec5-box2 {
+  width: 875px;
   padding: 60px 120px 0px 50px;
 }
 
 iframe.b1-sec5-iframe {
-  width: 36.5vw;
+  width: 100%;
+  max-width: 36.5vw;
   height: 400px;
   -ms-zoom: 0.75;
   -moz-transform: scale(0.75);
@@ -1192,6 +1194,10 @@ p.b1-sec5-p2 {
 
   div.b1-sec5-box2 {
     padding: 60px 50px 0px 50px;
+  }
+
+  iframe.b1-sec5-iframe {
+    max-width: 100%;
   }
 }
 
@@ -1405,17 +1411,16 @@ div.b1-sec6-box2 {
 div.b1-container7 {
   display: flex;
   justify-content: center;
-  padding-top: 50px;
-  padding-bottom: 60px;
 }
 
 div.b1-sec7-box2 {
-  max-width: 700px;
+  width: 820px;
+  padding: 60px 120px 60px 0px;
 }
 
 div.b1-sec7-box1 {
   margin-bottom: auto;
-  padding: 0px 75px 0px 0px;
+  padding: 60px 75px 60px 120px;
 }
 
 figure.b1-sec7-left-figure {
@@ -1499,8 +1504,9 @@ p.b1-sec7-left-p {
   text-align: left;
   font-size: 16px;
   padding-top: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   background-color: white;
+  text-align: justify;
 }
 
 p.b1-sec7-right-p {
@@ -1510,6 +1516,7 @@ p.b1-sec7-right-p {
   padding-top: 15px;
   margin-bottom: 50px;
   background-color: white;
+  text-align: justify;
 }
 
 /* This edits the gradient on top of arrows left */
@@ -1579,8 +1586,13 @@ span#carousel-right-arrow {
     padding-top: 30px;
   }
 
+  div.b1-sec7-box1 {
+    margin-bottom: auto;
+    padding: 20px 50px 40px 50px;
+  }
+
   div.b1-sec7-box2 {
-    padding: 0px 0px 0px 0px;
+    padding: 20px 50px 40px 50px;
   }
 
   div.b1-sec7-left-line {
@@ -1613,15 +1625,6 @@ span#carousel-right-arrow {
 
   div.b1-sec7-content {
     top: 0px;
-  }
-
-  div.b1-sec7-box1 {
-    margin-bottom: auto;
-    padding: 0px 0px 0px 0px;
-  }
-
-  div.b1-sec7-box2 {
-    padding: 15px 0px 0px 0px;
   }
 
   h1.b1-sec7-right-h1 {
@@ -1663,7 +1666,7 @@ span#carousel-right-arrow {
   }
 
   h1.b1-sec7-left-h1 {
-    font-size: 41px;
+    font-size: 40px;
     color: #1a272d;
     margin: 0px 0px 0px 0px;
     text-align: left;
@@ -1680,22 +1683,28 @@ span#carousel-right-arrow {
   }
 
   h1.b1-sec7-right-h1 {
-    font-size: 45px;
+    font-size: 40px;
   }
 
   span#carousel-left-arrow {
     left: 0px;
-    margin-left: 20px;
-    width: 35px;
-    height: 35px;
+    margin-left: -10px;
   }
 
   span#carousel-right-arrow {
-    margin-right: 20px;
+    margin-right: -10px;
   }
 
   div.b1-sec7-box1 {
     padding: 0px 0px 0px 0px;
+  }
+
+  div.b1-sec7-box2 {
+    padding: 0px 0px 0px 0px;
+  }
+
+  figure.b1-sec7-right-figure {
+    padding: 15px 20px 0px 20px;
   }
 
   p.b1-sec7-left-p {
@@ -1705,7 +1714,7 @@ span#carousel-right-arrow {
   }
 
   p.b1-sec7-right-p {
-    font-size: 14px;
+    font-size: 13.5px;
   }
 }
 
@@ -1745,8 +1754,10 @@ p.b1-sec8-box1-p {
   text-align: left;
   font-size: 16px;
   padding-top: 15px;
+  margin-bottom: 50px;
   color: black;
   background-color: #ededed;
+  text-align: justify;
 }
 
 p.b1-sec8-box2-p {
@@ -1756,18 +1767,19 @@ p.b1-sec8-box2-p {
 
 figure.b1-sec8-figure {
   max-width: 700px;
+  background-color: #ededed;
 }
 
 img.b1-sec8-img {
   width: 100%;
 }
 
+/* Effects the transition effect */
 ol#b1-indicators {
   left: 35px;
   margin-bottom: 0px;
   margin-left: 100px;
   margin-right: 100px;
-  top: 495px;
 }
 
 /* Arrow edits */
@@ -1870,7 +1882,7 @@ span#carousel-right-arrow2 {
   }
 
   p.b1-sec8-box1-p {
-    font-size: 14px;
+    font-size: 13.5px;
   }
 
   p.b1-sec8-box2-p {
@@ -1882,9 +1894,12 @@ span#carousel-right-arrow2 {
     padding: 0px 30px 30px 30px;
   }
 
+  figure.b1-sec8-figure {
+    padding: 15px 20px 0px 20px;
+  }
+
   ol#b1-indicators {
     margin: 0px 30px 0px 30px;
-    top: 220px;
     right: 35px;
     left: 45px;
   }
@@ -1895,13 +1910,13 @@ span#carousel-right-arrow2 {
   } */
 
   span#carousel-left-arrow2 {
-    margin-left: -40px;
-    margin-top: -150px;
+    margin-left: -10px;
+    margin-top: -95px;
   }
 
   span#carousel-right-arrow2 {
-    margin-right: -40px;
-    margin-top: -150px;
+    margin-right: -10px;
+    margin-top: -95px;
   }
 }
 
@@ -2015,7 +2030,7 @@ p.b1-sce9-p {
   }
 
   h1.b1-sec9-h1 {
-    font-size: 40px;
+    font-size: 35px;
     text-align: left;
   }
 
@@ -2146,10 +2161,7 @@ tr:nth-child(odd) {
 @media only screen and (max-width: 736px) {
   div.b1-container10 {
     flex-wrap: wrap;
-    padding: 20px 0px 0px 0px;
-    margin-bottom: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
+    padding: 20px 30px 30px 30px;
   }
 
   div.b1-sec10-box1 {
@@ -2168,12 +2180,16 @@ tr:nth-child(odd) {
   } */
 
   h1.b1-sec10-h1 {
-    font-size: 34px;
+    font-size: 35px;
     padding: 0px 0px 0px 0px;
   }
 
   div.b1-sec10-line {
     margin: 5px 258px 15px 0px;
+  }
+
+  p.td {
+    font-size: 11px;
   }
 }
 
