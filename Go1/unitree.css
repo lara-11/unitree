@@ -1,4 +1,4 @@
-/* UNITREE LANDING PAGE */
+/* Go1 LANDING PAGE */
 /* SECTION 1 */
 figure.unitree-video2 {
     display: none;
@@ -932,7 +932,7 @@ ol.unitree-ol {
     }
 
     h1.unitree-sec7-h1 {
-        font-size: 40px;
+        font-size: 38px;
         text-align: left;
         margin: 0px 30px 10px 30px;
     }
@@ -949,6 +949,11 @@ ol.unitree-ol {
     img.unitree-sec7-vid {
         width: 420px;
         height: 235px;
+    }
+
+    ol.unitree-ol {
+        padding-left: 50px;
+        padding-right: 30px;
     }
 }
 
