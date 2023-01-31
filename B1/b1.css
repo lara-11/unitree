@@ -416,7 +416,6 @@ div.b1-container4 {
   display: flex;
   justify-content: center;
   background: #e2f2fb;
-  margin-bottom: 10px;
 }
 
 div.b1-sec4-box1 {
@@ -839,10 +838,11 @@ div.b1-container7 {
 
 div.b1-sec7-box2 {
   width: 820px;
-  padding: 60px 120px 60px 0px;
+  padding: 60px 120px 40px 0px;
 }
 
 div.b1-sec7-box1 {
+  margin-top: auto;
   margin-bottom: auto;
   padding: 60px 75px 60px 120px;
 }
@@ -854,12 +854,11 @@ figure.b1-sec7-left-figure {
 
 figure.b1-sec7-right-figure {
   max-width: 100%;
-  padding-top: 15px;
 }
 
 h1.b1-sec7-left-h1 {
   max-width: 700px;
-  font-size: 55px;
+  font-size: 60px;
   color: #1a272d;
   margin: 0px 0px 0px 0px;
   text-align: left;
@@ -875,7 +874,7 @@ h1.b1-sec7-right-h1 {
 div.b1-sec7-left-line {
   height: 2px;
   background: #1a272d;
-  margin: 10px 170px 15px 0px;
+  margin: 10px 325px 15px 0px;
 }
 
 div.b1-sec7-right-line {
