@@ -4,13 +4,13 @@
     <div class="b1-container1">
         <figure class="b1-video1">
             <video width="100%" autoplay="autoplay" loop="loop" muted="muted">
-                <source src="/Shared/Unitree/unitree_desktop_header.mp4" type="video/mp4">
+                <source src="/Shared/Unitree/b1-video-header.mp4" type="video/mp4">
             </video>
         </figure>
 
         <figure class="b1-video2">
             <video width="100%" autoplay="autoplay" loop="loop" muted="muted">
-                <source src="/Shared/Unitree/unitree_mobile_header.mp4" type="video/mp4">
+                <source src="/Shared/Unitree/b1-header-vid-mobile.mp4" type="video/mp4">
             </video>
         </figure>
     </div>
@@ -323,9 +323,14 @@
       <!--SECTION 9-->
       <div class="b1-container9">
         <div class="b1-sec9-box1">
-            <figure>
+          <video class="b1-sec9-video" style="max-width: 100%;" autoplay="autoplay" loop="loop" muted="muted">
+            <source src="/Shared/Unitree/ip67.mp4" type="video/mp4">
+            <source src="/Shared/Unitree/ip67.mp4" type="video/ogg">
+          </video>
+
+            <!--<figure>
                 <img src="/Shared/Unitree/unitree-b1-waterproof-industrial-grade-robot.gif" class="b1-sec9-img" data-image="0">
-            </figure>
+            </figure>-->
         </div>
 
         <div class="b1-sec9-box2">
@@ -341,7 +346,7 @@
     <!--SECTION 10-->
     <div class="b1-container10">
         <div class="b1-sec10-box1">
-            <h1 class="b1-sec10-h1">Unitree (B1) Specifications</h1>
+            <h1 class="b1-sec10-h1">Specifications</h1>
             <div class="b1-sec10-line"></div>
 
             <!--TABLE-->
@@ -485,7 +490,7 @@
     <div class="b1-container12">
         <div class="b1-sec12-left-wrap">
             <figure class="b1-sec12-figure">
-                <img src="/Shared/Unitree/b1-contact.jpg" class="b1-sec12-img" data-image="0">
+                <img src="/Shared/Unitree/b1-contact-left.jpg" class="b1-sec12-img" data-image="0">
             </figure>
 
             <div class="contact-info">
@@ -508,7 +513,7 @@
         </div>
 
         <figure class="b1-sec12-figure2">
-            <img src="/Shared/Unitree/unitree-img2.png" class="b1-sec12-img2" data-image="0">
+            <img src="/Shared/Unitree/b1-contact-right.jpg" class="b1-sec12-img2" data-image="0">
         </figure>
     </div>
 
@@ -1152,11 +1157,11 @@ iframe.b1-sec5-iframe {
   width: 100%;
   max-width: 36.5vw;
   height: 400px;
-  -ms-zoom: 0.75;
+  /*-ms-zoom: 0.75;
   -moz-transform: scale(0.75);
   -moz-transform-origin: 0 0;
   -o-transform: scale(0.75);
-  -o-transform-origin: 0 0;
+  -o-transform-origin: 0 0; */
   /* -webkit-transform: scale(1.10); */
   /* -webkit-transform-origin: 0 0; */
 }
@@ -1933,6 +1938,10 @@ div.b1-sec9-box1 {
   padding: 60px 120px 60px 50px;
 }
 
+video.b1-sec9-video {
+  width: 700px;
+}
+
 img.b1-sec9-img {
   width: 700px;
 }
@@ -2017,6 +2026,10 @@ p.b1-sce9-p {
     font-size: 15px;
     max-width: 100%;
   }
+
+  video.b1-sec9-video {
+    width: 750px;
+  }
 }
 
 /* MOBILE */
@@ -2040,6 +2053,11 @@ p.b1-sce9-p {
 
   p.b1-sce9-p {
     font-size: 14px;
+  }
+
+  video.b1-sec9-video {
+    width: 420px;
+    height: 235px;
   }
 }
 
@@ -2095,7 +2113,7 @@ table.b1-table {
 
 td,
 th {
-  border: 1px solid #dddddd;
+  /* border: 1px solid #dddddd; */
   text-align: left;
   padding: 8px;
 }

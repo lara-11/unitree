@@ -576,11 +576,11 @@ iframe.b1-sec5-iframe {
   width: 100%;
   max-width: 36.5vw;
   height: 400px;
-  -ms-zoom: 0.75;
+  /*-ms-zoom: 0.75;
   -moz-transform: scale(0.75);
   -moz-transform-origin: 0 0;
   -o-transform: scale(0.75);
-  -o-transform-origin: 0 0;
+  -o-transform-origin: 0 0; */
   /* -webkit-transform: scale(1.10); */
   /* -webkit-transform-origin: 0 0; */
 }
@@ -1357,6 +1357,10 @@ div.b1-sec9-box1 {
   padding: 60px 120px 60px 50px;
 }
 
+video.b1-sec9-video {
+  width: 700px;
+}
+
 img.b1-sec9-img {
   width: 700px;
 }
@@ -1441,6 +1445,10 @@ p.b1-sce9-p {
     font-size: 15px;
     max-width: 100%;
   }
+
+  video.b1-sec9-video {
+    width: 750px;
+  }
 }
 
 /* MOBILE */
@@ -1464,6 +1472,11 @@ p.b1-sce9-p {
 
   p.b1-sce9-p {
     font-size: 14px;
+  }
+
+  video.b1-sec9-video {
+    width: 420px;
+    height: 235px;
   }
 }
 
@@ -1519,7 +1532,7 @@ table.b1-table {
 
 td,
 th {
-  border: 1px solid #dddddd;
+  /* border: 1px solid #dddddd; */
   text-align: left;
   padding: 8px;
 }
