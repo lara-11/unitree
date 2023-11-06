@@ -1,0 +1,195 @@
+<!--Go1 Air Product Page-->
+<p style="text-align: justify;">
+    <b>Start The Era Of Mobile Robots Truly Entering The Lives Of The People -</b>
+    Unitree Robotics is a well-known start-up company in the world's robotics circle, and an outstanding pioneer in
+    commercializing high-performance quadruped robot in the worldwide market, pushing mobile robots into people's lives.
+</p>
+
+<br>
+
+<div class="go1-air-banner">
+    <img src="/Shared/Unitree/unitree-wallpaper2.jpg" data-image="0">
+</div>
+
+<br>
+
+<!-- Video 1 -->
+<div class="go1-air-vid-container">
+    <div class="go1-air-sec1-box1">
+        <h1 class="go1-air-sec1-h1">ISS Intelligent Concomitant System</h1>
+        <div class="go1-air-sec1-line"></div>
+
+        <h2 class="go1-air-sec1-h2">Adopt patented wireless vector positioning and control technology</h2>
+        <ol>
+            <li>The robot is in the person's lateral peripheral vision, it is better than the conventional follow mode with natural human-computer interaction, safe and secure.</li>
+            <li>No need to always look back and worry about whether the robot is lost or encounters obstacles.</li>
+            <li>When the environment is complex, people can actively choose a simpler route to help the robot pass.</li>
+        </ol>
+    </div>
+
+    <div class="go1-air-sec1-box2">
+        <video class="go1-air-video" style="max-width: 100%;" autoplay="autoplay" loop="loop" muted="muted">
+            <source src="/Shared/Unitree/631a361cbd194a488a51ed7e0249392b.mp4" type="video/mp4">
+            <source src="/Shared/Unitree/631a361cbd194a488a51ed7e0249392b.mp4" type="video/ogg">
+        </video>
+    </div>
+</div>
+
+<!-- Video 2 -->
+<div class="go1-air-vid-container">
+    <div class="go1-air-sec2-box1">
+        <video class="go1-air-video" style="max-width: 100%;" autoplay="autoplay" loop="loop" muted="muted">
+            <source src="/Shared/Unitree/7d8a39745b8d49c6825f6ea5c63c7aae.mp4" type="video/mp4">
+            <source src="/Shared/Unitree/7d8a39745b8d49c6825f6ea5c63c7aae.mp4" type="video/ogg">
+        </video>
+    </div>
+
+    <div class="go1-air-sec2-box2">
+        <h1 class="go1-air-sec2-h1">Robust and Reliable Powertrain</h1>
+        <div class="go1-air-sec2-line"></div>
+
+        <ol>
+            <li>The new patented design of ultra-lightweight low-noise long-life power joints.</li>
+            <li>Body/Thigh Joint C1-8: 520g 23.70N.m (MAX).</li>
+            <li>Knee Joint C1-8×1.5 ratio 35.55N.m (MAX).</li>
+            <li>A patented heat pipe-assisted heat dissipation system is built into the vicinity of the knee joint motor.</li>
+        </ol>
+    </div>
+</div>
+
+<!-- Video 3 -->
+<div class="go1-air-vid-container">
+    <div class="go1-air-sec3-box1 ">
+        <h1 class="go1-air-sec3-h1">Go1 APP download</h1>
+        <div class="go1-air-sec3-line"></div>
+
+
+        <ol>
+            <h2>Unitree Application</h2>
+            <li><b>Basic Function</b> Real time image transmission, visual tracking, SLAM navigation, 3D simulation control.</li>
+            <h2>Object Tracking</h2>
+            <li><b>Machine Vision,</b> Lock and Trace people or things can be framed.</li>
+            <h2>SLAM Navigation</h2>
+            <li>For getting familiar with the basic manipulation of the robot automatic map building, go anywhere you want to go.</li>
+        </ol>
+    </div>
+
+    <div class="go1-air-sec3-box2 ">
+        <video class="go1-air-video" style="max-width: 100%;" autoplay="autoplay" loop="loop" muted="muted">
+            <source src="/Shared/Unitree/24779c99e9634c39bd47b5365b96c786.mp4" type="video/mp4">
+            <source src="/Shared/Unitree/24779c99e9634c39bd47b5365b96c786.mp4" type="video/ogg">
+        </video>
+    </div>
+</div>
+
+
+<style>
+    /* Go1 Air */
+    video.go1-air-video {
+        width: 2600px;
+    }
+
+    /* Video 1 */
+    div.go1-air-vid-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    div.go1-air-sec1-box1 {
+        margin-top: auto;
+        margin-bottom: auto;
+        max-width: 700px;
+        padding: 20px 50px 30px 0px;
+    }
+
+    h1.go1-air-sec1-h1 {
+        font-size: 50px;
+        color: #1a272d;
+        margin-top: 0px;
+    }
+
+    div.go1-air-sec1-line {
+        height: 2px;
+        background: #1a272d;
+        margin: 10px 290px 15px 0px;
+    }
+
+    h2.go1-air-sec1-h2 {
+        font-size: 30px;
+    }
+
+    div.go1-air-sec1-box2 {
+        max-width: 700px;
+        padding: 30px 0px 30px 50px;
+    }
+
+    /* Video 2 */
+    div.go1-air-sec2-box1 {
+        max-width: 700px;
+        padding: 30px 50px 30px 0px;
+    }
+
+    h1.go1-air-sec2-h1 {
+        font-size: 50px;
+        color: #1a272d;
+        margin-top: 0px;
+    }
+
+    div.go1-air-sec2-line {
+        height: 2px;
+        background: #1a272d;
+        margin: 10px 250px 15px 0px;
+    }
+
+    div.go1-air-sec2-box2 {
+        margin-top: auto;
+        margin-bottom: auto;
+        max-width: 700px;
+        padding: 20px 0px 30px 50px;
+    }
+
+    /* Video 3 */
+    div.go1-air-sec3-box1 {
+        margin-top: auto;
+        margin-bottom: auto;
+        max-width: 700px;
+        padding: 20px 50px 30px 0px;
+    }
+
+    h1.go1-air-sec3-h1 {
+        font-size: 50px;
+        color: #1a272d;
+        margin-top: 0px;
+    }
+
+    div.go1-air-sec3-line {
+        height: 2px;
+        background: #1a272d;
+        margin: 10px 100px 15px 0px;
+    }
+
+    div.go1-air-sec3-box2 {
+        max-width: 700px;
+        padding: 30px 0px 30px 50px;
+    }
+
+
+    /* TABLET */
+    @media only screen and (max-width: 1024px) {
+        video.go1-air-video {
+            width: 750px;
+        }
+    }
+
+    /* MOBILE */
+    @media only screen and (max-width: 736px) {
+        div.go1-air-banner {
+            margin: 0px 0px 0px 0px;
+        }
+
+        video.go1-air-video {
+            width: 420px;
+            height: 235px;
+        }
+    }
+</style>
